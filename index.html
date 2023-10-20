@@ -4,10 +4,119 @@
         <meta charset="UTF-8">
         <title>Здоровье</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
-            
+        <div class="wrapper">
+            <header class="header"><!--header-->
+                <h1 class="logo">Brooklyn Public Library</h1>
+                <nav class="nav">
+                    <ul class="list">
+                        <li class="list-item"><a class="list-item-link" href="#">About</a></li>
+                        <li class="list-item"><a class="list-item-link" href="#">Favorites</a></li>
+                        <li class="list-item"><a class="list-item-link" href="#">Coffee shop</a></li>
+                        <li class="list-item"><a class="list-item-link" href="#">Contacts</a></li>
+                        <li class="list-item"><a class="list-item-link" href="#">Library Card</a></li>
+                    </ul>
+                </nav>
+                <img  class="icon" src="img/icon_profile.svg" alt="icon">
+            </header><!--finish header-->
+            <section class="welcome">
+                <div class="black">
+                    <p class="black-text">Welcome<br> to the Brooklyn <br>Library
+                                        </p>
+                </div>
+            </section>
+            <section class="about">
+                <h2 class="title">About</h2>
+                <div class="hr"></div>
+                <p class="title-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+                <img  class="img-left" src="img/image 1.png" alt="library"><img class="img-center" src="img/image 2.png" alt="library"><img class="img-right" src="img/image 3.png" alt="library">
+                <div class="pagination">
+                    <div class="one-circle"><a class="pagi-link" href=""></a></div>
+                    <div class="two-circle" ><a class="pagi-link" href=""></a></div>
+                    <div class="three-cercle"><a class="pagi-link" href=""></a></div>
+                </div>
+            </section>
+            <section class="favorit">
+                <h2 class="title">Favorites</h2>
+                <div class="hr"></div>
+                <p class="favorit-parag">Pick favorites of season</p>
+                <div class="radio-button">
+                    <div class="form-radio form-one">
+                        <input id="radio-1" type="radio" name="radio" value="1" checked>
+                        <label for="radio-1"><span>Winter</span></label>
+                    </div>
+
+                    <div class="form-radio form-two">
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label for="radio-2">Spring</label>
+                    </div>
+
+                    <div class="form-radio form-three">
+                        <input id="radio-3" type="radio" name="radio" value="3">
+                        <label for="radio-3">Summer</label>
+                    </div>
+
+                    <div class="form-radio form-four">
+                        <input id="radio-4" type="radio" name="radio" value="4">
+                        <label for="radio-4">Autumn</label>
+                    </div>
+                </div>
+
+                <div class="staff">
+                    <p class="staff-title">Staff Picks</p>
+                    <div class="staff-hr"></div>
+                    <p class="staff-title-two">The Book Eaters</p>
+                    <p class="staff-title-three">By Sunyi Dean</p>
+                    <p class="staff-text">An unusual sci-fi story about a book eater woman who tries desperately to 
+                       save her dangerous mind-eater son from tradition and certain death. Complete 
+                       with dysfunctional family values, light Sapphic romance, and a strong, 
+                       complex protagonist. Not for the faint of heart.       </p>
+                    <button class="staff-button">Buy</button>
+                    <img class="staff-img" src="img/book.png" alt="book">
+                </div>
+
+                <div class="staff">
+                    <p class="staff-title">Staff Picks</p>
+                    <div class="staff-hr"></div>
+                    <p class="staff-title-two">Cackle</p>
+                    <p class="staff-title-three">By Rachel Harrison</p>
+                    <p class="staff-text">Are your Halloween movies of choice The Witches of Eastwick and 
+                        Practical Magic? Look no further than here - where a woman recovering from a breakup 
+                        moves to a quaint town in upstate New York and befriends a beautiful witch.      </p>
+                    <button class="staff-button">Buy</button>
+                    <img class="staff-img" src="img/book 2.png" alt="book">
+                </div>
+
+                <div class="staff">
+                    <p class="staff-title">Staff Picks</p>
+                    <div class="staff-hr"></div>
+                    <p class="staff-title-two">Dante: Poet of the Secular World</p>
+                    <p class="staff-title-three">By Erich Auerbach</p>
+                    <p class="staff-text">Auerbach's engaging book places the 'Comedy' within the tradition of epic, 
+                        tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the 
+                        individual and his drama of soul into something of divine significance—an inspired introduction 
+                        to Dante's main themes.</p>
+                    <button class="staff-button">Buy</button>
+                    <img class="staff-img" src="img/book 3.png" alt="book">
+                </div>
+
+                <div class="staff">
+                    <p class="staff-title">Staff Picks</p>
+                    <div class="staff-hr"></div>
+                    <p class="staff-title-two">The Last Queen</p>
+                    <p class="staff-title-three">By Clive Irving</p>
+                    <p class="staff-text">A timely and revelatory new biography of Queen Elizabeth (and her family) 
+                        exploring how the Windsors have evolved and thrived as the modern world 
+                        has changed around them.</p>
+                    <button class="staff-button">Buy</button>
+                    <img class="staff-img" src="img/book 4.png" alt="book">
+                </div>
+
+            </section>
         </div>
     </body>
 </html>
